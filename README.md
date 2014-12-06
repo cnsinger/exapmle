@@ -7,3 +7,4 @@ if/else
 switch
 arrays
 slices
+map
