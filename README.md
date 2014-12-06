@@ -8,3 +8,12 @@ switch
 arrays
 slices
 map
+
+functions
+multi_return_values
+variadic_functions
+closures
+recursion
+pointers
+struct
+methods
