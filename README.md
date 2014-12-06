@@ -2,3 +2,8 @@ helloworld
 values
 variables
 constants
+for
+if/else
+switch
+arrays
+slices
