@@ -1,6 +1,7 @@
 package main
 
 import "fmt"
+import "math"
 
 type geometry interface {
     area() float64
@@ -29,4 +30,18 @@ func (c circle) area() float64 {
 
 func (c circle) perim() float64 {
     return 2 * math.Pi * c.radius
+}
+
+func measure(g geometry) {
+    fmt.Println(g)
+    fmt.Println(g.area())
+    fmt.Println(g.perim())
+}
+
+func main() {
+    s := square{width: 3, height: 4}
+    c := circle{radius: 5}
+
+    measure(s)
+    measure(c)
 }

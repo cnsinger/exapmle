@@ -17,3 +17,5 @@ recursion
 pointers
 struct
 methods
+interfaces
+goroutines
